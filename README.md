@@ -2,6 +2,7 @@
 API endpoint :
 http://localhost:8080/api/transfer
 
+***************************************************
 The post endpoint receive an object like below:
 {    
 	"sourceAccountNumber": "95C3X2g",
@@ -9,7 +10,11 @@ The post endpoint receive an object like below:
 	"amount": 10  
 }
 
+****************************************************
 
+the dockerfile is attached for docker image creation
+
+****************************************************
 
 Answering to the questions from the part 3: 
 How would you improve your solution? 
