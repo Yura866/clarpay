@@ -21,9 +21,8 @@ public class TransferAgent implements InitializingBean{
 	@Autowired
 	private AccountRepository acountService;
 	
-	@Autowired
-	private ModelMapper modelMapper;
-	
+	@Autowired	
+	private ModelMapper modelMapper;	
 
 	@Autowired
 	private Map<String,TransferService> transferImplMap;
